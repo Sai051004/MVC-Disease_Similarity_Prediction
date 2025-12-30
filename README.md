@@ -306,8 +306,8 @@ model.load_state_dict(checkpoint["model_state"])
 
 | Model | Accuracy | Precision | Recall | F1 | AUROC | AUPRC |
 |-------|----------|-----------|--------|----|----|-------|
-| AGCN | 85.2% | 0.832 | 0.856 | 0.844 | 0.928 | 0.895 |
-| **GIN** | **87.2%** | **0.854** | **0.892** | **0.873** | **0.943** | **0.912** |
+| AGCN | 86.52% | 0.832 | 0.856 | 0.844 | 0.928 | 0.895 |
+
 
 *Results may vary based on dataset and hyperparameters*
 
@@ -365,4 +365,5 @@ model.load_state_dict(checkpoint["model_state"])
 ---
 
 For questions or issues, please open an issue on GitHub or contact [your email].
+
 
